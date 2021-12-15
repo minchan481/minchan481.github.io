@@ -8,15 +8,6 @@
 <h4 align="center">
   Git BLOG by using<a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a>
 </h4>
-<!--
-<p align="center">
-  <a href="https://jeffreytse.github.io/jekyll-theme-yat">
-    <img src="https://github.com/jeffreytse/jekyll-theme-yat/workflows/Github%20Pages/badge.svg"
-      alt="Github Pages" />
-  </a>
-</p>
--->
-
 <br>
 
 해당 Repository는 Jekyll을 사용해서 제작한 깃 블로그 입니다. 국민대학교 유레카 프로젝트 강의 내용을 기반으로 제작되었습니다. 
@@ -112,3 +103,48 @@ jeffreytse의 yat 테마를 사용하였다.
 
 해당 repository의 내용을 git clone해서 로컬 저장소로 가져온다.
 그 다음 깃허브 페이지에 접속하면 테마가 바뀐것을 확인 할 수 있다.
+
+## Add Comments - Disqus
+Disqus를 활용해서 댓글 기능을 추가한다.
+
+Disqus 홈페이지에 접속하여 가입한다. [Disqus](https://disqus.com/)
+Disqus에 홈페이지를 추가한다.
+
+1. Jekyll Playform을 선택한다.
+
+2. 깃허브 Web Page를 추가시킨다.
+
+3. _config.yml에 Disqus 코드를 반영한다.
+
+```
+comment:
+  provider:         "disqus"
+  disqus:
+    shortname:        "minchan481"
+
+```
+
+4. universal code를 반영한다.
+
+_layouts/post.html
+
+``` html
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    // let PAGE_URL = "{{site.url}}{{page.url}}"
+    // let PAGE_IDENTIFIER = "{{page.url}}"
+    var disqus_config = function () {
+    this.page.url = "https://minchan481.github.io/";  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = "minchan481"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://minchan481.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+```
