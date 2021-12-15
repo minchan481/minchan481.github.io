@@ -25,7 +25,7 @@
   Windows10환경에서 windowsPowerShell 터미널을 이용해서 프로젝트를 진행했습니다.
 </p>
 
-## Connecting Git
+## Connect Git
 
 깃허브에서 `<username>.github.io` 이름의 repostiory를 생성한다.
 
@@ -41,7 +41,7 @@ git add, commit 후에 원격저장소를 연결한다:
 $ git remote add origin https://github.com/minchan481/minchan481.github.io
 ```
 
-## PAT 생성하기
+## Generae PAT
 github -> Setting -> Developer settings -> Personal access tokens -> Generate new token
 
 
