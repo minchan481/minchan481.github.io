@@ -148,3 +148,7 @@ _layouts/post.html
     })();
 </script>
 ```
+
+5. post에 댓글을 허용한다.
+
+`comments : true` 를 지정한다.
