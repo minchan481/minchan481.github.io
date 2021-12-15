@@ -22,28 +22,33 @@
 해당 Repository는 Jekyll을 사용해서 제작한 깃 블로그 입니다. 국민대학교 유레카 프로젝트 강의 내용을 기반으로 제작되었습니다. 
 
 <p align="center">
-  블로그 제작 과정을 설명하겠습니다!
+  Windows10환경에서 windowsPowerShell 터미널을 이용해서 프로젝트를 진행했습니다.
 </p>
 
-## 깃 연결
+## Connecting Git
 
-- Support beautiful **Night Mode**.
-- Modern responsive web design.
-- Full layouts `home`, `post`, `tags`, `archive` and `about`.
-- Uses font awesome 5 for icons.
-- Beautiful page banner with image and video.
-- Beautiful Syntax Highlight using [highlight.js][highlight-js].
-- RSS support using [Jekyll Feed][jekyll-feed] gem.
-- Optimized for search engines using [Jekyll Seo Tag][jekyll-seo-tag] gem.
-- Sitemap support using [Jekyll Sitemap][jekyll-sitemap] gem.
-- Complex and flexible table support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- MathJAX and LaTeX optional support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- Media (Youtube, Spotify, etc.) support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- Diagram (PlantUML, Mermaid) support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- Google Translation support.
-- New post tag support.
+깃허브에서 `<username>.github.io` 이름의 repostiory를 생성한다.
 
-Also, visit the [Live Demo][yat-live-demo] site for the theme.
+지정한 디렉토리에 git 저장소를 지정한다:
+
+```
+$ git init
+```
+
+git add, commit 후에 원격저장소를 연결한다:
+
+```
+$ git remote add origin https://github.com/minchan481/minchan481.github.io
+```
+
+
+이후엔 git status, git add, git commit, git push 등의 명령어를 이용해 깃허브 원격 저장소에 코드 업로드
+
+## Connecting Git
+
+
+
+
 
 ## Installation
 
