@@ -16,6 +16,10 @@
   Windows10환경에서 windowsPowerShell 터미널을 이용해서 프로젝트를 진행했습니다.
 </p>
 
+<p align="center">
+  <minchan02.github.io>
+</p>
+
 ## Connect Git
 
 깃허브에서 `<username>.github.io` 이름의 repostiory를 생성한다.
