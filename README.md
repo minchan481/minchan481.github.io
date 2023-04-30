@@ -8,6 +8,9 @@
 <h4 align="center">
   Git BLOG by using<a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a>
 </h4>
+
+. <h3 align = "center"> <https://minchan02.github.io> </h3>
+  
 <br>
 
 해당 Repository는 Jekyll을 사용해서 제작한 깃 블로그 입니다. 국민대학교 유레카 프로젝트 강의 내용을 기반으로 제작되었습니다. 
@@ -16,9 +19,8 @@
   Windows10환경에서 windowsPowerShell 터미널을 이용해서 프로젝트를 진행했습니다.
 </p>
 
-<p align="center">
-  minchan02.github.io
-</p>
+
+
 
 ## Connect Git
 
