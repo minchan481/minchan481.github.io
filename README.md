@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <minchan02.github.io>
+  minchan02.github.io
 </p>
 
 ## Connect Git
